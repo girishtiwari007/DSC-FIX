@@ -1,4 +1,4 @@
-﻿[CmdletBinding()]
+[CmdletBinding()]
 param(
     [ValidateSet('gui','console','check','pack')][string]$Mode = 'gui',
     [switch]$ExtractOnly
